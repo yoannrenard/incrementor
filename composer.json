@@ -1,0 +1,33 @@
+{
+    "name": "yoannrenard/incrementor",
+    "description": "Increment what ever you want.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoann Renard",
+            "email": "renard.yoann@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YoannRenard\\Incrementor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YoannRenard\\Incrementor\\": "test/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "yoannrenard/phpunit-annotation-testcase": "^1.0",
+        "symfony/var-dumper": "^3.2"
+    }
+}
