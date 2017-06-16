@@ -13,12 +13,13 @@ class IntegerIncrementor implements IncrementorInterface
     /** @var int */
     private $min;
 
-    /** @var array */
-    private $values;
+    /** @var int */
+    private $value;
 
     /**
-     * @param int   $start
-     * @param int   $max
+     * @param int $start
+     * @param int $min
+     * @param int $max
      */
     public function __construct($start, $min = null, $max = null)
     {
