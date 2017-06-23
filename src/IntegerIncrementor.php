@@ -21,7 +21,7 @@ class IntegerIncrementor implements IncrementorInterface
      * @param int $min
      * @param int $max
      */
-    public function __construct($start, $min = null, $max = null)
+    public function __construct($start = 1, $min = null, $max = null)
     {
         $this->start  = $start;
         $this->value  = $start;
